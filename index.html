@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>Super Luigi – Kampf um die Champions League</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="game-shell">
+    <canvas id="game" width="320" height="180" aria-label="Super Luigi Spiel"></canvas>
+    <div id="touch-controls" class="hidden">
+      <div class="touch-left">
+        <button data-action="left">◀</button>
+        <button data-action="right">▶</button>
+      </div>
+      <div class="touch-right">
+        <button data-action="shoot">⚽</button>
+        <button data-action="jump">▲</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>
