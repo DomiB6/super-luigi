@@ -149,7 +149,7 @@
   const CHARACTERS = [
     {id:'luigi', name:'Luigi', desc:'Hat einen Pool', colors:['#2baa43','#f1c7a5','#253040'], boss:'dragon'},
     {id:'robi', name:'Robi', desc:'Messi aus Italien', colors:['#2d6cdf','#f1c7a5','#e6e6e6'], boss:null},
-    {id:'carlos', name:'Carlos', desc:'Liebt Mc Donald's', colors:['#d93025','#b97a56','#1f7a3f'], boss:'eagle'},
+    {id:'carlos', name:'Carlos', desc:'Liebt Mc Donalds', colors:['#d93025','#b97a56','#1f7a3f'], boss:'eagle'},
     {id:'marius', name:'Marius', desc:'Nie ohne Timo', colors:['#6d5dfc','#e0b58e','#333'], locked:'Timo'},
     {id:'timo', name:'Timo', desc:'Nie ohne Marius', colors:['#f59e0b','#ddb38e','#334155'], locked:'Marius'},
     {id:'holzi', name:'Holzi', desc:'Leiden ohne Klagen', colors:['#e67e22','#e5b88b','#303030'], boss:'keeper', invincible:true, bald:true},
