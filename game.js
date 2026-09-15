@@ -197,13 +197,13 @@
   };
 
   const CHARACTERS = [
-    {id:'luigi', name:'Luigi', desc:'Der grüne Klassiker', colors:['#2baa43','#f1c7a5','#253040'], boss:'dragon'},
-    {id:'robi', name:'Robi', desc:'Junger italienischer Fussballer', colors:['#2d6cdf','#f1c7a5','#e6e6e6'], boss:null},
-    {id:'carlos', name:'Carlos', desc:'Portugiesischer Fussballer', colors:['#d93025','#b97a56','#1f7a3f'], boss:'eagle'},
+    {id:'luigi', name:'Luigi', desc:'Hat ein Pool', colors:['#2baa43','#f1c7a5','#253040'], boss:'dragon'},
+    {id:'robi', name:'Robi', desc:'Messi aus Italien', colors:['#2d6cdf','#f1c7a5','#e6e6e6'], boss:null},
+    {id:'carlos', name:'Carlos', desc:'Liebt McDonalds', colors:['#d93025','#b97a56','#1f7a3f'], boss:'eagle'},
     {id:'marius', name:'Marius', desc:'Nie ohne Timo', colors:['#6d5dfc','#e0b58e','#333'], locked:'Timo'},
     {id:'timo', name:'Timo', desc:'Nie ohne Marius', colors:['#f59e0b','#ddb38e','#334155'], locked:'Marius'},
-    {id:'holzi', name:'Holzi', desc:'Glatze. Unbesiegbar.', colors:['#e67e22','#e5b88b','#303030'], boss:'keeper', invincible:true, bald:true},
-    {id:'lars', name:'Lars', desc:'Grossgewachsener Fussballer', colors:['#0ea5e9','#f0c6a3','#1f2937'], boss:'ref'}
+    {id:'holzi', name:'Holzi', desc:'Leiden ohne Klagen.', colors:['#e67e22','#e5b88b','#303030'], boss:'keeper', invincible:true, bald:true},
+    {id:'lars', name:'Lars', desc:'Sammelt Karten', colors:['#0ea5e9','#f0c6a3','#1f2937'], boss:'ref'}
   ];
 
   let state = 'unlock'; // unlock, start, select, ready, playing, modal, ending
@@ -723,8 +723,8 @@
     pxRect(30,25,260,98,'rgba(15,24,38,.9)');
     pxRect(35,30,250,88,'#1a2941');
     text('SUPER LUIGI',160,41,25,'#7cff7c','center');
-    text('KAMPF UM DIE',160,73,11,'#fff','center');
-    text('CHAMPIONS LEAGUE',160,89,13,'#ffd43b','center');
+    text('KAMPF UM DAS',160,73,11,'#fff','center');
+    text('AUFGEBOT',160,89,13,'#ffd43b','center');
     drawBall(55,56,8); drawBall(267,56,8);
     text('START',160,137,14,'#fff','center');
     text('Klicke / tippe irgendwo',160,157,7,'#e2e8f0','center'); text('V6',303,169,5,'rgba(255,255,255,.55)','right');
