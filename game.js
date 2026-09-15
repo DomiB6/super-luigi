@@ -147,13 +147,13 @@
   };
 
   const CHARACTERS = [
-    {id:'luigi', name:'Luigi', desc:'Der grüne Klassiker', colors:['#2baa43','#f1c7a5','#253040'], boss:'dragon'},
-    {id:'robi', name:'Robi', desc:'Junger italienischer Fussballer', colors:['#2d6cdf','#f1c7a5','#e6e6e6'], boss:null},
-    {id:'carlos', name:'Carlos', desc:'Portugiesischer Fussballer', colors:['#d93025','#b97a56','#1f7a3f'], boss:'eagle'},
+    {id:'luigi', name:'Luigi', desc:'Hat einen Pool', colors:['#2baa43','#f1c7a5','#253040'], boss:'dragon'},
+    {id:'robi', name:'Robi', desc:'Messi aus Italien', colors:['#2d6cdf','#f1c7a5','#e6e6e6'], boss:null},
+    {id:'carlos', name:'Carlos', desc:'Liebt Mc Donald's', colors:['#d93025','#b97a56','#1f7a3f'], boss:'eagle'},
     {id:'marius', name:'Marius', desc:'Nie ohne Timo', colors:['#6d5dfc','#e0b58e','#333'], locked:'Timo'},
     {id:'timo', name:'Timo', desc:'Nie ohne Marius', colors:['#f59e0b','#ddb38e','#334155'], locked:'Marius'},
-    {id:'holzi', name:'Holzi', desc:'Glatze. Unbesiegbar.', colors:['#e67e22','#e5b88b','#303030'], boss:'keeper', invincible:true, bald:true},
-    {id:'lars', name:'Lars', desc:'Grossgewachsener Fussballer', colors:['#0ea5e9','#f0c6a3','#1f2937'], boss:'ref'}
+    {id:'holzi', name:'Holzi', desc:'Leiden ohne Klagen', colors:['#e67e22','#e5b88b','#303030'], boss:'keeper', invincible:true, bald:true},
+    {id:'lars', name:'Lars', desc:'Sammelt Karten', colors:['#0ea5e9','#f0c6a3','#1f2937'], boss:'ref'}
   ];
 
   let state = 'unlock'; // unlock, start, select, ready, playing, modal, ending
