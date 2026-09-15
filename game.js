@@ -672,8 +672,8 @@
     pxRect(30,25,260,98,'rgba(15,24,38,.9)');
     pxRect(35,30,250,88,'#1a2941');
     text('SUPER LUIGI',160,41,25,'#7cff7c','center');
-    text('KAMPF UM DIE',160,73,11,'#fff','center');
-    text('CHAMPIONS LEAGUE',160,89,13,'#ffd43b','center');
+    text('KAMPF UM DAS',160,73,11,'#fff','center');
+    text('AUFGEBOT',160,89,13,'#ffd43b','center');
     drawBall(55,56,8); drawBall(267,56,8);
     text('START',160,137,14,'#fff','center');
     text('Klicke / tippe irgendwo',160,157,7,'#e2e8f0','center'); text('V6',303,169,5,'rgba(255,255,255,.55)','right');
